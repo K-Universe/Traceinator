@@ -1,6 +1,6 @@
-# Traceinator
+# Tracenator
 
-Traceinator is a PHP library designed to generate sitemaps in XML format.
+Tracenator is a PHP library designed to generate sitemaps in XML format.
 
 ## Features
 
