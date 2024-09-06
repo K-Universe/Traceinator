@@ -69,7 +69,11 @@ class GenerateSitemap {
             $url['changeFrequency'] = null;
     }
 
-    public function export(string $dir = null, string $name = null): bool {
+    public function getUrls(): array {
+        return $this->urls;
+    }
+
+    public function export(string $dir = null, string $name = 'index'): bool {
 
         if (empty($this->urls))
             return false;
