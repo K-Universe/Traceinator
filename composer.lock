@@ -1,0 +1,72 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "50320961b9a5b1105a643b10e7745926",
+    "packages": [
+        {
+            "name": "saboohy/basepath",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/saboohy/basepath.git",
+                "reference": "794a9f8f945f195a463d0b955f35e11ec1d9b60f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/saboohy/basepath/zipball/794a9f8f945f195a463d0b955f35e11ec1d9b60f",
+                "reference": "794a9f8f945f195a463d0b955f35e11ec1d9b60f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.5"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/basepath.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sabuhi Alizada",
+                    "email": "sabuhi.alizada@yahoo.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "The Helper Function For Base Path Directory of The Project",
+            "keywords": [
+                "basepath",
+                "composer",
+                "directory",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/saboohy/basepath/issues",
+                "source": "https://github.com/saboohy/basepath/tree/v1.0.2"
+            },
+            "time": "2022-10-22T22:07:07+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "platform-overrides": {
+        "php": "8.1"
+    },
+    "plugin-api-version": "2.6.0"
+}
